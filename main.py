@@ -1,6 +1,6 @@
 import botpy
 from botpy.message import Message
-import gpt
+import GPT.gpt as gpt
 
 class TinyIW(botpy.Client):
     async def on_at_message_create(self, message:Message):

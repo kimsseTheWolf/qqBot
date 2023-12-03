@@ -1,14 +1,4 @@
-from openai import OpenAI
 import requests
-
-GPTClient = OpenAI(api_key="")
-
-def sendQuestion(qContent:str):
-    response = GPTClient.chat.completions.create(model="gpt-3.5-turbo", messages=[
-        {"role": "user", "content": qContent}
-    ])
-    print(response)
-    return response['choices'][0]['message']['content']
 
 def sendQuestionPrivate(qContent:str):
     headers={
