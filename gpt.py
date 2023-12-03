@@ -1,7 +1,7 @@
 from openai import OpenAI
 import requests
 
-GPTClient = OpenAI(api_key="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")
+GPTClient = OpenAI(api_key="")
 
 def sendQuestion(qContent:str):
     response = GPTClient.chat.completions.create(model="gpt-3.5-turbo", messages=[
