@@ -2,7 +2,7 @@ import requests
 
 def sendQuestionPrivate(qContent:str):
     headers={
-        "Authorization": "Bearer pk-vUsOacudLYuZBALAzchjdeLVmapqoriSghvWjsNcEkjElBjP",
+        "Authorization": "Bearer token",
         "Content-Type": "application/json"
     }
     data={
