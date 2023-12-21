@@ -35,4 +35,4 @@ class MinecraftJavaServer:
         self.frpURL = frpURL
         pass
     
-print(get_server_status("us-1.lcf.icu:34111"))
+# print(get_server_status("us-1.lcf.icu:34111"))
